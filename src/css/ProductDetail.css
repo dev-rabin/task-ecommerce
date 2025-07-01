@@ -3,22 +3,38 @@
   margin: auto;
   padding: 14px 0px;
 }
+
+.routing{
+  font-family: Clash Grotesk;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0px;
+color: #8F8F8F;
+margin-bottom: 6px;
+}
+
+.routing span {
+  color: #292929;
+}
 .detail-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
 }
 
 .left-box {
   display: flex;
   gap: 16px;
+  flex-direction: column;
 }
 
 .product-detail-img img {
   width: 458px;
   height: 610px;
   border-radius: 8px;
-  object-fit: cover;
-  background-color: #f2f2f2;
+  object-fit: contain;
   padding: 16px;
 }
 .share-detail {
@@ -38,7 +54,8 @@
   width: 520px;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+justify-content: start;
+gap: 25px;
 }
 
 .product-detail-company {
@@ -49,6 +66,7 @@ justify-content: space-between;
   letter-spacing: 1%;
   vertical-align: bottom;
   color: #8f8f8f;
+  margin-bottom: 8px;
 }
 .product-detail-title {
   font-family: Clash Grotesk;
@@ -256,8 +274,8 @@ justify-content: space-between;
   height: 100px;
   border-radius: 8px;
   padding: 7px;
-  object-fit: cover;
-  background: #F2F2F2;
+  object-fit: contain;
+  border: 1px solid #7a7a7a5e;
 }
 .terms-conditions{
     font-family: Clash Grotesk;

@@ -28,13 +28,14 @@
   width: fit-content;
   height: 40px;
   background-color: white;
+  transition: all 0.3s ease;
 }
 
 .search-icon {
   margin-right: 8px;
   font-size: 18px;
-  color: #888;
-  display: flex;
+  color: white;
+  display: none;
   align-items: center;
 }
 
@@ -43,6 +44,7 @@
   outline: none;
   width: 470px;
   font-size: 16px;
+  transition: width 0.3s ease;
 }
 .secondary-container {
   width: 50%;
@@ -67,4 +69,73 @@
 .dropdown-icon {
   font-size: 12px;
   color: white;
+}
+
+.link-icon {
+  display: none;
+  font-size: 18px;
+  color: white;
+}
+
+.link-text {
+  display: inline;
+}
+
+@media (max-width: 1024px) {
+  .navbar section{
+    display: flex;
+    justify-content: space-between;
+  }
+  .primary-container{
+    width: 100px;
+  }
+  .search-bar {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    pointer-events: none;
+  }
+  .search-container {
+    background-color: transparent; 
+    border: none;
+    padding: 0;
+    width: 100px;
+  }
+  .search-container.show-on-mobile {
+    background-color: white;
+    border: 1px solid #00000033;
+    padding: 4px 8px;
+    width: 100px;
+  }
+  .navbar section {
+    gap: 5px;
+  }
+
+  .dropdown-icon {
+    display: none;
+  }
+
+  .primary-container {
+    justify-content: space-between;
+  }
+
+  .search-bar {
+    width: 200px;
+  }
+
+  .secondary-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .link-text {
+    display: none;
+  }
+
+  .link-icon {
+    display: inline;
+  }
+  .search-icon{
+    display: flex;
+  }
 }
