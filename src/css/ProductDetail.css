@@ -1,0 +1,278 @@
+.product-detail-detail {
+  width: 80%;
+  margin: auto;
+  padding: 14px 0px;
+}
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box {
+  display: flex;
+  gap: 16px;
+}
+
+.product-detail-img img {
+  width: 458px;
+  height: 610px;
+  border-radius: 8px;
+  object-fit: cover;
+  background-color: #f2f2f2;
+  padding: 16px;
+}
+.share-detail {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.icon-style {
+  width: 52px;
+  height: 52px;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f2f2f2;
+}
+.right-box {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+
+.product-detail-company {
+  width: 146px;
+  font-family: Clash Grotesk;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1%;
+  vertical-align: bottom;
+  color: #8f8f8f;
+}
+.product-detail-title {
+  font-family: Clash Grotesk;
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: -0.5%;
+  vertical-align: bottom;
+  color: #292929;
+}
+.desc {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #292929;
+}
+.other-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.secondary-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  gap: 15px;
+}
+.actual-price {
+  font-family: Clash Grotesk;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  text-decoration: line-through;
+  color: #666666;
+}
+.discounted-price {
+  font-family: Clash Grotesk;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #141414;
+}
+.solded-quantity {
+  font-family: Clash Grotesk;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.ratings {
+  font-family: Clash Grotesk;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #141414;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.color {
+  font-family: Clash Grotesk;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #8f8f8f;
+}
+.color-name {
+  font-family: Clash Grotesk;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #292929;
+}
+
+.color-box-group {
+  display: flex;
+  gap: 12px;
+}
+
+.color-box {
+  width: 74px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.color-fill {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.color-box.selected {
+  border: 1px solid #141414;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart-btn {
+  width: 296px;
+  height: 58px;
+  background: #141414;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  width: 200px;
+  height: 58px;
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.size-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.size {
+  font-family: Clash Grotesk;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #8f8f8f;
+}
+.size-number {
+  font-family: Clash Grotesk;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #292929;
+}
+.size-chart {
+  font-family: Clash Grotesk;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: bottom;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #525252;
+  cursor: pointer;
+}
+
+.more-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+  width: 37.8%;
+}
+.more-images img{
+  width: 76px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 7px;
+  object-fit: cover;
+  background: #F2F2F2;
+}
+.terms-conditions{
+    font-family: Clash Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #7A7A7A;   
+    cursor: pointer; 
+}
+.dotted-line {
+    border: none;
+    border-top: 1px dashed #999;
+    margin: 12px 0;
+  }
